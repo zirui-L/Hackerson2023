@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'org.example'
@@ -15,6 +16,13 @@ dependencies {
     implementation 'com.googlecode.json-simple:json-simple:1.1.1'
 }
 
+application {
+    // Define the main class for the application.
+    mainClass = 'App'
+}
 test {
     useJUnitPlatform()
+}
+run {
+    standardInput = System.in;
 }

@@ -1,10 +1,10 @@
 //id;description;Health;Wealth;Charm;IQ;Happiness
 0;Congrats! You are retired. Enjoy your retirement!;1;-2;0;-1;2
-1;
-2;
-3;
-4;
-5;
-6;
-7;
+1;Do you want to do some part-time job to get extra income?;0;1;0;1;0
+2;Would you like to join some social clubs such as book clubs, hiking groups, or photography clubs?;0;0;2;2;2
+3;Would you like to take a retirement trip to elsewhere in the world?;2;-2;2;1;4
+4;Would you like to walk you children to school?1;0;0;0;2
+5;Your friend has invited you for fishing, would you like to go fishing with your friend?1;-1;1;0;2
+6;You accidently fell on the road and started bleeding, would you go to the hosbital?-5;-1;0;0;-2
+7;You
 8;

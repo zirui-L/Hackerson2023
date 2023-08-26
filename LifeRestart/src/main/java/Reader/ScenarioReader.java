@@ -45,8 +45,6 @@ public class ScenarioReader implements Reader{
         } catch (FileNotFoundException e){
             System.out.println("File is not found!");
             e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 

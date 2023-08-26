@@ -1,15 +1,18 @@
 package Player;
 
+import Stage.*;
+
 public class Person {
 
-    private final int INCREASEBY = 2;
+    private final long INCREASEBY = 2;
     private String eventId;
     private PlayerStats stats;
     private Stage currStage;
-    private int hobby;
+    private long hobby;
 
-    public Person(int health, int wealth, int charm, int IQ, int happiness) {
+    public Person(long health, long wealth, long charm, long IQ, long happiness) {
         this.stats = new PlayerStats(IQ, charm, wealth, health, happiness);
+        this.currStage = new ChildStage();
     }
 
     public Stage getStage() {
@@ -44,13 +47,12 @@ public class Person {
         this.currStage = currStage;
     }
 
-    public void changeStage(int yearCount) {
-         if (yearCount == 1 || yearCount == 2 || yearCount == 3) {
+    public void changeStage(long yearCount) {
+        if (yearCount == 1 || yearCount == 2 || yearCount == 3) {
             this.currStage.changeStage();
 
         }
     }
-
 
     public void setHobby(int hobbyType) {
         this.hobby = hobbyType;
@@ -58,14 +60,14 @@ public class Person {
             case 1:
                 stats.increaseHealth(INCREASEBY);
             case 2:
-                stats.increaseIq(INCREASEBY);
+                stats.increaseIQ(INCREASEBY);
             case 3:
                 stats.increaseCharm(INCREASEBY);
             default:
         }
     }
 
-    public int getHobby() {
+    public long getHobby() {
         return this.hobby;
     }
 

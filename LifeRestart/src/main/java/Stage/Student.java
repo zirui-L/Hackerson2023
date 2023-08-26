@@ -9,7 +9,7 @@ import Player.PlayerStats;
 import Reader.AttributeReader;
 import Reader.ScenarioReader;
 
-public class Student {
+public class Student extends Stage{
 
     private ScenarioReader scenarios;
     private final String attributePath = "src/main/resources/attributes.json";
@@ -37,11 +37,11 @@ public class Student {
         attributeReader.parse();
         PlayerStats playerStats = attributeReader.getPlayerStats();
 
-        int health = playerStats.getHealth() + value.get(0);
-        int wealth = playerStats.getWealth() + value.get(1);
-        int charm = playerStats.getCharm() + value.get(2);
-        int IQ = playerStats.getiQ() + value.get(3);
-        int happiness = playerStats.getHappiness() + value.get(4);
+        long health = playerStats.getHealth() + value.get(0);
+        long wealth = playerStats.getWealth() + value.get(1);
+        long charm = playerStats.getCharm() + value.get(2);
+        long IQ = playerStats.getIQ() + value.get(3);
+        long happiness = playerStats.getHappiness() + value.get(4);
 
 
         return randomDescription;
@@ -49,5 +49,13 @@ public class Student {
     }
 
 
+    @Override
+    public Stage changeStage() {
+        return null;
+    }
 
+    @Override
+    public String getPath() {
+        return null;
+    }
 }

@@ -1,4 +1,3 @@
-//id;description;Health;Wealth;Charm;IQ;Happiness
 1;Your dad took you to a thrilling baseball game, where you cheered for your team, shared exciting moments, and created lasting memories together.;2;0;0;0;0
 2;Accompanied by your mom, you enthusiastically joined the vibrant crowd at a soccer match, immersing yourselves in the electric atmosphere and celebrating each goal.;2;0;0;0;0
 3;With your father, you soaked in the adrenaline-filled ambiance of a basketball game, relishing the fast-paced action and thrilling dunks.;2;0;0;0;0

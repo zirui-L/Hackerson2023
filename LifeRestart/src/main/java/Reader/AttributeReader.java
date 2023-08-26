@@ -28,11 +28,11 @@ public class AttributeReader implements Reader{
             JSONObject jsonObject = (JSONObject) object;
             JSONObject jsonAttribute = (JSONObject) jsonObject.get("Attribute");
 
-            int health = (Integer) jsonAttribute.get("Health");
-            int wealth = (Integer) jsonAttribute.get("Wealth");
-            int charm = (Integer) jsonAttribute.get("Charm");
-            int IQ = (Integer) jsonAttribute.get("IQ");
-            int happiness = (Integer) jsonAttribute.get("Happiness");
+            long health = (long) jsonAttribute.get("Health");
+            long wealth = (long) jsonAttribute.get("Wealth");
+            long charm = (long) jsonAttribute.get("Charm");
+            long IQ = (long) jsonAttribute.get("IQ");
+            long happiness = (long) jsonAttribute.get("Happiness");
 
             this.stats = new PlayerStats(health, wealth, charm, IQ, happiness);
 
