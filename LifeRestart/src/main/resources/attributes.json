@@ -2,8 +2,9 @@
   "Attribute": {
     "IQ": 0,
     "EQ": 0,
-    "CHARM": 0,
+    "Charm": 0,
     "Wealth": 0,
-    "Health": 0
+    "Health": 0,
+    "Happiness": 0
   }
 }
