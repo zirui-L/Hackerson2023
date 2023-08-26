@@ -1,0 +1,20 @@
+.talentBox {
+    background-color: orange;
+    height: 70%;
+    width: 50%;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.box {
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 20px;
+    
+}
+
+.talentBox h1 {
+    text-align: center;
+    color: white;
+}
