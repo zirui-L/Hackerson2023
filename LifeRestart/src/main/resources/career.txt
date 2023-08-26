@@ -1,0 +1,9 @@
+//id;description;Health;Wealth;Charm;IQ;Happiness
+1;Congrats! You are employed! Would you like to work hard?;-1;2;2;2;0
+2;Oops, your company went out of business. Would like to look for another job?;0;-2;-1;0;-2
+3;You already got enough money for rest of your life, would you like to retire early?;1;-4;0;-2;2
+4;Congrats! You are promoted!;0;2;2;2;2
+5;OH NO! You made a big mistake that costs your company a lot of money. So, you are fired.;-2;-4;-2;-2;-3
+6;You have been together with your girlfriend/boyfriend for years, would you like to propose?;0;0;1;0;4
+7;You fight a lot with your partner, would you like to get divorced?;-2;-2;-4;0;-4
+8;Do you want to have kids?;0;-2;2;0;3

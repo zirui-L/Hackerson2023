@@ -1,9 +1,11 @@
-1;
-2;
-3;
-4;
-5;
-6;
-7;
-8;
-9;
+//id;description;Health;Wealth;Charm;IQ;Happiness
+1;Tom asked me to go out, but the exam is coming... Should I go out?;0;0;0;-2;2
+2;Why they bullied me, should I fight back?;2;0;2;0;2
+3;You didn't pass the math exam, Your mom said you won't get any allowance for this month.;0;0;0;-2;-2
+4;You just got your final exam result, do you want to share with your parents?;0;0;0;0;2
+5;You've finished your HSC, what's your next step?;0;0;0;0;0
+6;You are at the Open Week, there are lots of clubs and societies, would you like to join one or more of them?;2;0;2;2;2
+7;There's a boy/girl into you? Would you like to accept?0;0;2;0;2
+8;You have a crush on a boy/girl, would you like to take further step?;0;-1;0;0;2
+9;OH NO! You break up with your boyfriend/girlfriend!;-1;0;-1;-1;-2
+10;You are offered with an opportunity to travel oversea for an internship, would you like to go?;2;2;0;2;0

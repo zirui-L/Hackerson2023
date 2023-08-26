@@ -5,14 +5,12 @@ import java.io.File;
 
 public class Config {
 
-
     public static void main(String[] args){
         try{
             File f = new File("childhood.txt");
             Scanner sc = new Scanner(f);
 
             HashMap<Integer, String> childhood = new HashMap<Integer, String>();
-
 
 
             while(sc.hasNextLine()){
@@ -26,7 +24,6 @@ public class Config {
             for (Integer key: childhood.keySet()){
                 System.out.println(key + " " + childhood.get(key));
             }
-
 
 
         } catch (FileNotFoundException e){
