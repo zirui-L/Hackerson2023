@@ -1,9 +1,9 @@
 {
   "Attribute": {
-    "IQ": 0,
-    "EQ": 0,
-    "CHARM": 0,
+    "Health": 0,
     "Wealth": 0,
-    "Health": 0
+    "Charm": 0,
+    "IQ": 0,
+    "Happiness": 20
   }
 }

@@ -1,0 +1,11 @@
+//id;description;Health;Wealth;Charm;IQ;Happiness
+1;Your dad took you to a thrilling baseball game, where you cheered for your team, shared exciting moments, and created lasting memories together.;2;0;0;0;0
+2;Accompanied by your mom, you enthusiastically joined the vibrant crowd at a soccer match, immersing yourselves in the electric atmosphere and celebrating each goal.;2;0;0;0;0
+3;With your father, you soaked in the adrenaline-filled ambiance of a basketball game, relishing the fast-paced action and thrilling dunks.;2;0;0;0;0
+4;Attending a hockey game with your mom, you revelled in the speed and intensity of the sport, shouting for your team as they clashed on the ice.;2;0;0;0;0
+5;Your dad and you shared a special day at a tennis tournament, applauding the players' skill and dedication while enjoying quality time together.;2;0;0;0;0
+6;Your parents bought you a new Jigsaw Puzzle, you played it several times.;0;0;0;2;0
+7;On a lovely afternoon, you saw your grandma doing Sudoku, you asked your grandma to teach you.;0;0;0;2;0
+8;A street musician skillfully plays a violin, performing arrangements inspired by "The Hobbit”. The captivating sounds draw your attention…;0;0;2;0;0
+9;Your Mom brought you to the piano concert, The captivating sounds draw your attention… (extreme scenario if the wealth attribute point is very high);0;0;2;0;0
+10;As you stroll by a popular children's playground with your parents, you're immediately entranced by a street artist who is skillfully crafting a chalk art masterpiece of Mirkwood's Enchanted Forest.;0;0;2;0;0
