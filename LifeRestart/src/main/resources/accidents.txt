@@ -1,4 +1,3 @@
-//id;description;Health;Wealth;Charm;IQ;Happiness
 1;Unfortunately, you were hit by a car and got severe injury.;-20;-10;-10;0;-15
 2;Unfortunately, you were in a bad car accident, sorry, you died.;-100;0;0;0;-100
 3;Unfortunately, you got a cold.;-3;0;0;0;-1

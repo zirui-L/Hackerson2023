@@ -1,4 +1,3 @@
-//id;description;Health;Wealth;Charm;IQ;Happiness
 1;Tom asked me to go out, but the exam is coming... Should I go out?;0;0;0;-2;2
 2;Why they bullied me, should I fight back?;2;0;2;0;2
 3;You didn't pass the math exam, Your mom said you won't get any allowance for this month.;0;0;0;-2;-2

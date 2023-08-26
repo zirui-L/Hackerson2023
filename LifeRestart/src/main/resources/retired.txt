@@ -1,4 +1,3 @@
-//id;description;Health;Wealth;Charm;IQ;Happiness
 0;Congrats! You are retired. Enjoy your retirement!;1;-2;0;-1;2
 1;Do you want to do some part-time job to get extra income?;0;1;0;1;0
 2;Would you like to join some social clubs such as book clubs, hiking groups, or photography clubs?;0;0;2;2;2
