@@ -1,0 +1,9 @@
+{
+  "Attribute": {
+    "Health": 0,
+    "Wealth": 0,
+    "Charm": 0,
+    "IQ": 0,
+    "Happiness": 20
+  }
+}
