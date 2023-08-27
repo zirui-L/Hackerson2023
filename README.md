@@ -5,7 +5,7 @@
 //check node.js version
 node -v
 //check npm version
-npm-v
+npm -v
 ```
 ## Project setup: 
 ```
