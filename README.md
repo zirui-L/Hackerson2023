@@ -1,6 +1,6 @@
-# life_remake
+# Life_Restarter
 
-## Project setup
+## Project setup: node.js version: 13.14.0
 ```
 npm install
 ```
