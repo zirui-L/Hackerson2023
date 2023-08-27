@@ -1,6 +1,13 @@
 # Life_Restarter
 
-## Project setup: node.js version: 13.14.0
+## Project environment: node.js version: 13.14.0
+```
+//check node.js version
+node -v
+//check npm version
+npm-v
+```
+## Project setup: 
 ```
 npm install
 ```
